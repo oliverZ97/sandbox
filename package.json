@@ -1,0 +1,25 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "my personal sandbox to test and design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverZ97/sandbox.git"
+  },
+  "author": "Oliver Ziemann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverZ97/sandbox/issues"
+  },
+  "homepage": "https://github.com/oliverZ97/sandbox#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
