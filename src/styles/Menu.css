@@ -14,12 +14,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
     padding: 2px;
     border: 1px solid #3d464e;
     background-color: #3d464e;
     border-radius: 5px;
     text-align: center;
     margin: 1px;
+}
+
+.Menu li:hover {
+    border: 1px solid #2fc68a;
 }

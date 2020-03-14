@@ -3,6 +3,8 @@
     height: auto;
     padding: 2%;
     margin-top: 10px;
-    background-color: #3d464e;
+    background-color: #2a343d;
     border-radius: 20px;
+    border-top: 1px solid #2fc68a;
+    border-left: 1px solid #2fc68a;
 }

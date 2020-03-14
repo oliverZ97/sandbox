@@ -1,20 +1,26 @@
-import React, { Component} from "react";
-import {hot} from "react-hot-loader";
+import React from "react";
+import { hot } from "react-hot-loader";
 import "../styles/Menu.css";
 
-class Menu extends Component{
-  render(){
-    return(
-      <div className="Menu">
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-        </ul>
-      </div>
-    );
-  }
+function Menu(props) {
+  return (
+    <div className="Menu">
+      <ul>
+        {setupMenuItems(props)}
+      </ul>
+    </div>
+  );
 }
+
+function setupMenuItems(props) {
+  const items = props.items.map((item) => {
+    return <li key={item}>{item}</li>
+  })
+  console.log(items)
+  return items;
+}
+
+
+
 
 export default hot(module)(Menu);

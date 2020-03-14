@@ -5,10 +5,11 @@ import Menu from "./Menu";
 
 class Header extends Component{
   render(){
+    const items = ["Recipes", "Blog", "Stuff", "Bullet Journal"];
     return(
       <div className="Header">
         <h1> Sandbox! </h1>
-        <Menu></Menu>
+        <Menu items={items}></Menu>
       </div>
     );
   }
