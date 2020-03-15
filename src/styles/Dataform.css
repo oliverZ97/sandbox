@@ -1,0 +1,10 @@
+.Dataform {
+    display: flex;
+    flex-direction: column;
+    color: #e0e0e0;
+}
+
+.Dataform input {
+    width: 400px;
+    margin-bottom: 20px;
+}

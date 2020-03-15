@@ -8,7 +8,7 @@ import Header from "../components/Header";
 class Recipes extends Component{
   render(){
     return(
-      <div className="App">
+      <div className="Recipes">
         <Header></Header>
         <Main></Main>
       </div>
