@@ -1,6 +1,7 @@
 .Slider {
     display: flex;
     width: 80%;
+    height: 300px;
     justify-content: space-between;
     border: 1px solid #2fc68a;
     border-radius: 20px;
@@ -12,6 +13,9 @@
 }
 
 .slider-img {
-    width: auto;
-    height: 300px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 40% -370px;
 }

@@ -1,0 +1,13 @@
+.Profile_Card {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #3d464e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pill_Profile{
+    
+}

@@ -5,6 +5,7 @@ import Button_Primary from "./Button_Primary";
 import Button_Secondary from "./Button_Secondary";
 import Button_Warning from "./Button_Warning";
 import Button_Attention from "./Button_Attention";
+import { FaBeer } from 'react-icons/fa';
 
 class Main extends Component{
   render(){
@@ -15,6 +16,7 @@ class Main extends Component{
         <Button_Secondary text="Secondary"></Button_Secondary>
         <Button_Warning text="Warning"></Button_Warning>
         <Button_Attention text="Attention"></Button_Attention>
+        <h3> Lets go for a <FaBeer />? </h3>
       </div>
     );
   }
