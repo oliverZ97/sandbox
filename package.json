@@ -33,6 +33,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-hot-loader": "^4.3.11",
-    "react-icons": "^3.9.0"
+    "react-icons": "^3.9.0",
+    "react-router-dom": "^5.1.2"
   }
 }
