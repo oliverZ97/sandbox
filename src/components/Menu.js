@@ -1,26 +1,17 @@
 import React from "react";
 import { hot } from "react-hot-loader";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 import "../styles/Menu.css";
 import Pill_Profile from "./Pill_Profile";
-import Recipes from "./Recipes";
-import App from "../App";
+import {Link} from "react-router-dom";
 
 function Menu(props) {
   return (
-    <Router>
     <div className="Menu">
       <ul>
         {setupMenuItems(props)}
       </ul>
       <Pill_Profile/>
     </div>
-    </Router>
   );
 }
 
@@ -33,7 +24,7 @@ function setupMenuItems(props) {
       link = "/" + item.toLowerCase().replace(" ", "_");
     }
     return <li key={item}>
-      <Link to={link}>{item}</Link>
+      {/*<Link to={link}>{item}</Link>*/}
     </li>
   })
   console.log(items)

@@ -11,9 +11,9 @@ class Pill_Profile extends Component {
     render() {
         return (
             <div>
-                <Link to="/profile" className="Profile_Card">
+                {/*<Link to="/profile" className="Profile_Card">
                     <TiUserOutline className="Pill_Profile" size={40} color="#e0e0e0" />
-                </Link>
+        </Link>*/}
             </div>
         );
     }

@@ -1,18 +1,26 @@
-import React, { Component} from "react";
+import React, { Component, Profiler} from "react";
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import {hot} from "react-hot-loader";
 import "./App.css";
 import "./styles/Text.css";
-import Main from "./components/Main";
-import Header from "./components/Header";
-import Slider from "./components/Slider";
+import Home from "./pages/Home";
+import Recipes from "./pages/Recipes";
 
 class App extends Component{
+
+  constructor(props) {
+    super(props);
+  }
+
   render(){
     return(
       <div className="App">
-        <Header></Header>
-        <Slider></Slider>
-        <Main></Main>
+        <Router>
+          <div>
+          <Route exact path="/" component={Home}></Route>
+          <Route path="/recipes" component={Recipes}></Route>
+          </div>
+        </Router>
       </div>
     );
   }

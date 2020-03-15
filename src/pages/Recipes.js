@@ -2,8 +2,8 @@ import React, { Component} from "react";
 import {hot} from "react-hot-loader";
 import "../styles/Recipes.css";
 import "../styles/Text.css";
-import Main from "./Main";
-import Header from "./Header";
+import Main from "../components/Main";
+import Header from "../components/Header";
 
 class Recipes extends Component{
   render(){
