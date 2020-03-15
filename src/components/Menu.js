@@ -1,6 +1,7 @@
 import React from "react";
 import { hot } from "react-hot-loader";
 import "../styles/Menu.css";
+import Pill_Profile from "./Pill_Profile";
 
 function Menu(props) {
   return (
@@ -8,6 +9,7 @@ function Menu(props) {
       <ul>
         {setupMenuItems(props)}
       </ul>
+      <Pill_Profile/>
     </div>
   );
 }

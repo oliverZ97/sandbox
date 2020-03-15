@@ -5,10 +5,12 @@ import "../styles/Pill_Profile.css";
 
 class Pill_Profile extends Component {
     render() {
-        return ( 
-        <div className="Profile_Card">
-            <TiUserOutline className="Pill_Profile" size={32} color="#e0e0e0"/>
-        </div>
+        return (
+            <div>
+                <a className="Profile_Card">
+                    <TiUserOutline className="Pill_Profile" size={40} color="#e0e0e0" />
+                </a>
+            </div>
         );
     }
 }

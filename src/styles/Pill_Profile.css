@@ -6,8 +6,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.Pill_Profile{
-    
+    cursor: pointer;
+    margin-left: 8px;
 }
