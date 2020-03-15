@@ -24,7 +24,7 @@ function setupMenuItems(props) {
       link = "/" + item.toLowerCase().replace(" ", "_");
     }
     return <li key={item}>
-      {/*<Link to={link}>{item}</Link>*/}
+      <Link to={link}>{item}</Link>
     </li>
   })
   console.log(items)
