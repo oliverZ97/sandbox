@@ -1,0 +1,18 @@
+.Button_Secondary {
+    width: 200px;
+    height: 60px;
+    border: 2px solid #2fc68a;
+    border-radius: 55px;
+    color: #2fc68a;
+    font-size: 20px;
+    background: linear-gradient( to left, #2a343d 50%, #2fc68a 50% );
+	background-size: 200% 100%;
+	background-position: right bottom;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.Button_Secondary:hover {
+    color: #2a343d;
+    background-position: left bottom;
+}

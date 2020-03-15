@@ -1,5 +1,5 @@
-.Button_Primary {
-    background-color: #2fc68a;
+.Button_Warning {
+    background-color: #d13232;
     color: #2a343d;
     width: 200px;
     height: 60px;
@@ -9,8 +9,8 @@
     transition: font-size 0.3s ease-out, background-color 1s ease-out;
 }
 
-.Button_Primary:hover {
-    background-color: #6af29c;
-    border-color: #2fc68a;
+.Button_Warning:hover {
+    background-color: #d54444;
+    border-color: #d13232;
     font-size: 25px;
 }
