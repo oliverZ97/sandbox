@@ -10,6 +10,7 @@ class Main extends Component{
   render(){
     return(
       <div className="Main">
+        <h1>Hello {},</h1>
         <p>Welcome on my personal Sandbox Website. On this page i will simply try out designs and components. Maybe some more content will be added in this project later.</p>
         <Button_Primary text="Primary"></Button_Primary>
         <Button_Secondary text="Secondary"></Button_Secondary>

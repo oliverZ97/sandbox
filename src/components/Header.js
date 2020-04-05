@@ -6,7 +6,7 @@ import Pill_Profile from "./Pill_Profile";
 
 class Header extends Component{
   render(){
-    const items = ["Home", "Recipes", "Blog", "Stuff", "Bullet Journal"];
+    const items = ["Home", "Resume", "Blog", "Stuff", "Bullet Journal"];
     return(
       <div className="Header">
         <h1> Sandbox! </h1>

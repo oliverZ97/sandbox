@@ -4,7 +4,7 @@ import {hot} from "react-hot-loader";
 import "./App.css";
 import "./styles/Text.css";
 import Home from "./pages/Home";
-import Recipes from "./pages/Recipes";
+import Resume from "./pages/Resume";
 import Profile from "./pages/Profile";
 
 class App extends Component{
@@ -19,7 +19,7 @@ class App extends Component{
         <Router>
           <div>
           <Route exact path="/" component={Home}></Route>
-          <Route path="/recipes" component={Recipes}></Route>
+          <Route path="/resume" component={Resume}></Route>
           <Route path="/profile" component={Profile}></Route>
           </div>
         </Router>
